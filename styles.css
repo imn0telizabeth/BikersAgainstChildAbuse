@@ -1,3 +1,5 @@
+@media screen and (max-width: 700px) {
+
 img.logo{
   display: block;
   margin-left: auto;
@@ -13,10 +15,10 @@ nav{
      background-color: black;
      padding: 10px;
      font-size: 15px;
-
+     margin: 0px -10px 0px -5px;
 }
 nav a{
-    margin: center;
+    text-align: center;
     color: red;
 
 }
@@ -35,10 +37,63 @@ a:hover {
   text-decoration: underline;
 }
 img.child {
-  display: block;
+  margin: 5% 2% 0% 47%;
+  width: 50%;
+  height: 50%;
+
+}
+.credits{
+  font-style: italic;
+  color: white;
+  margin-top: -10px;
+  margin-left: 120px;
+}
+div.review {
+  color: white;
+  font-size: 65%;
+  height: 200px;
+  width: 95%;
+  background-color: black;
+  margin: -36.5% 3% 20% 1.2%;
+  padding-left: 3%;
+  padding-right: 0.5%;
+  padding-top: .8%;
+
+}
+.info{
+  color: red;
+  font-size: 65%;
+  margin-top: -46%;
+  margin-left: 5.5%;
+  margin-right: 55%;
+  padding-top: 3%;
+  border-top: 2%;
+
+}
+.container{
+  position: relative;
+  overflow: hidden;
+  width: 99%;
+  height: 100%;
+  margin-top: 15%;
+  padding-top: 5%;
+  padding-left: 1%; 
+}
+.responsive-iframe {
+  position: center;
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
-  height: auto;
-  padding-top: 50px;
-  margin: 50px;
+  height: 200%;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 1200px){
 
 }
