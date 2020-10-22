@@ -46,7 +46,7 @@ img.child {
   font-style: italic;
   color: white;
   margin-top: -10px;
-  margin-left: 120px;
+  margin-left: 115px;
 }
 div.review {
   color: white;
@@ -77,19 +77,20 @@ div.review {
   height: 100%;
   margin-top: 15%;
   padding-top: 5%;
-  padding-left: 1%; 
+  padding-left: 1%;
 }
 .responsive-iframe {
   position: center;
   top: 10px;
   left: 0;
-  bottom: 0;
+  bottom: 1px;
   right: 0;
   width: 100%;
   height: 200%;
 }
-
-
+.shout{
+  font-size: 100px;
+}
 
 
 
