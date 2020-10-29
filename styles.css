@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 
 img.logo{
   display: block;
@@ -73,7 +73,7 @@ div.review {
 .info{
   color: red;
   text-align: left;
-  font-size: 10.5px;
+  font-size: 60%;
   padding-left: 3%;
   padding-right: 50%;
   padding-bottom: -1%;
@@ -82,20 +82,32 @@ div.review {
 
 }
 div.shout{
-  display: inline-block;
+  display: block;
   color: white;
   background-color: black;
-
-  font-size: 75%;
-  padding: 5%;
   text-align: center;
-  margin-top: 6%;
-  margin-left: 60%;
-  padding-left: -60%;
+  font-size: 65%;
+  padding: 2% 10% 2% 70%;
+  margin-top: 12%;
+}
+.biker{
+  display: block;
+  position: absolute;
+  clip: rect(0px,120px,150px,0px);
+  height: 30%;
+
+padding-top: 3%;
+  margin-left: 8%;
+  margin-bottom: -20%;
+  margin-top: -40%;
 }
 
+@media screen and (min-width: 900px){
 
+.biker{
+  margin-top: 80%;
 
+}
 }
 @media screen and (max-width: 1200px){
 
