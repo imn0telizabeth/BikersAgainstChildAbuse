@@ -1,6 +1,8 @@
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* Portrait */
-@media only screen and (max-width: 667px)
+/* Portrait & Landscape */
+@media only screen
+and (min-width : 375px)
+and (max-width : 667px)
    {
 
 img.logo{
