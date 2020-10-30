@@ -1,4 +1,7 @@
-@media screen and (max-width: 600px) {
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen and (max-width: 667px)
+   {
 
 img.logo{
   display: block;
@@ -12,14 +15,15 @@ nav{
     display: grid;
     grid-auto-flow: column;
      grid-gap: auto;
-     background-color: black;
+     background-color: firebrick;
      padding: 10px;
      font-size: 15px;
      margin: 0px -10px 0px -10px;
 }
 nav a{
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;
-    color: red;
+
 
 }
 /* unvisited link */
@@ -101,12 +105,37 @@ padding-top: 3%;
   margin-bottom: -20%;
   margin-top: -40%;
 }
-
-@media screen and (min-width: 900px){
-
-.biker{
-  margin-top: 80%;
-
+.video{
+  position: relative;
+  padding-bottom: 56.25%; /*16:9*/
+  height: 0;
+}
+.video iframe{
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div.footer{
+  color: white;
+  background-color: firebrick;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 1%;
+  padding-bottom: -5%;
+  font-size: 75%;
+}
+div.facebook{
+  display: block;
+  margin-right: 60%;
+  margin-top: -8%;
+  padding-top: -10%;
+}
+div.youtube{
+  display: block;
+  margin-right: 45%;
+  margin-top: -9%;
 }
 }
 @media screen and (max-width: 1200px){
