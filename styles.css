@@ -1,6 +1,6 @@
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 /* Portrait & Landscape */
-@media only screen
+@media screen
 and (min-width : 375px)
 and (max-width : 667px)
    {
@@ -140,6 +140,16 @@ div.youtube{
   margin-top: -9%;
 }
 }
-@media screen and (max-width: 1200px){
+@media screen
+and (min-width : 700px)
+and (max-width : 1000px){
+
+  img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 35%;
+     border-radius: 45%;
+  }  
 
 }
