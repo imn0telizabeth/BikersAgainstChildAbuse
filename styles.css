@@ -49,6 +49,10 @@ h1 {
 h2{
   font-family: 'Fjalla One', sans-serif;
 }
+h3{
+  font-family: 'Varela Round', sans-serif;
+	color: white;
+}
 p {
   font-family: 'Varela Round', sans-serif;
 	color: firebrick;
@@ -95,7 +99,6 @@ margin:20px;
   height: 100%;
 }
 footer{
-  color: white;
   background-color: firebrick;
   text-align: center;
   padding-top: 1px;
