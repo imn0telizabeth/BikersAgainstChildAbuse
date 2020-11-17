@@ -82,6 +82,11 @@ p {
 margin:20px;
 
 }
+.leftone{
+	display: block;
+	color: white;
+	margin:20px;
+}
 .randyjones{
   display: block;
 }
