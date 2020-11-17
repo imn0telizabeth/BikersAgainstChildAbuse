@@ -63,6 +63,12 @@ p {
   color: white;
 
 }
+.creditone{
+	font-style: italic;
+  color: white;
+	font-family: 'Varela Round', sans-serif;
+
+}
 .review {
   color: white;
   width: 100%;
