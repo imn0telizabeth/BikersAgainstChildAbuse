@@ -8,7 +8,7 @@ img.logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 250px;
+   width: 160px;
    border-radius: 45%;
 }
 img{
@@ -51,17 +51,19 @@ main{
 }
 h1 {
   font-family: 'Anton', sans-serif;
+	color: firebrick;
 }
 h2{
   font-family: 'Fjalla One', sans-serif;
+	color: firebrick;
 }
 h3{
   font-family: 'Varela Round', sans-serif;
-	color: white;
+	color: firebrick;
 }
 p {
   font-family: 'Varela Round', sans-serif;
-	color: firebrick;
+	color: white;
 }
 
 .credits{
@@ -83,9 +85,67 @@ p {
 	padding:20px 0;
 }
 
-.info{
-  color: firebrick;
 
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: firebrick;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+	color: firebrick;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.info{
+  color: white;
 }
 
 
@@ -103,6 +163,9 @@ p {
 .randyjones{
   display: block;
 }
+.shortfilm{
+	font-family: 'Varela Round', sans-serif;
+}
 
 .video{
   position: relative;
@@ -116,11 +179,20 @@ p {
   width: 100%;
   height: 100%;
 }
+.randy{
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	font-size: 1.2em;
+}
 footer{
   background-color: firebrick;
   text-align: center;
   padding-top: 1px;
 
+}
+.foot{
+	font-family: 'Varela Round', sans-serif;
+	color: white;
 }
 div.facebook{
   display:block;
@@ -137,7 +209,7 @@ div.youtube{
     display: block;
     margin-left: auto;
     margin-right: auto;
-     width: 350px;
+     width: 280px;
      border-radius: 45%;
   }
 	nav div{
@@ -150,18 +222,67 @@ div.youtube{
 		float:left;
 
 	}
+
+	/* CONTACT PAGE: Style the container/contact section */
+	.container {
+	  border-radius: 5px;
+	  padding: 10px;
+	}
+
+	/* Create two columns that float next to eachother */
+	.column {
+	  float: left;
+	  width: 50%;
+	  margin-top: 6px;
+	  padding: 20px;
+		font-family: 'Varela Round', sans-serif;
+		color: white;
+
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	  .column, input[type=submit] {
+	    width: 50%;
+	    margin-top: 0;
+	  }
+/* End of Contact Page*/
+
 .right{
 	width: 48%;
 	float: left;
 	margin: 1%;
 }
+.info{
+	font-size: 1.1em;
+}
+.shortfilm{
+	font-size: 1.2em;
+	font-family: 'Varela Round', sans-serif;
+}
 .review{
 		max-width:1200px;
 		margin: auto;
+		font-size: 1.1em;
+	}
+	.randy{
+		font-family: 'Varela Round', sans-serif;
+		color: white;
+		font-size: 1.2em;
 	}
 .review:after {
 	content:"";
 	clear:both;
 	display: table;
+}
+footer{
+  background-color: firebrick;
+  text-align: center;
+  padding-top: 1px;
 }
 }
