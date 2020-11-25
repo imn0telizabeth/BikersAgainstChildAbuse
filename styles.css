@@ -1,13 +1,14 @@
 body{
 	margin:0;
 	padding:0;
+	font-size: 18px;
 }
 
 img.logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-   width: 35%;
+   width: 250px;
    border-radius: 45%;
 }
 img{
@@ -19,7 +20,12 @@ nav{
      grid-gap: auto;
      background-color: firebrick;
      padding: 10px 0;
-     font-size: 15px;
+     font-size: 1.3em;
+}
+nav div{
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: auto;
 }
 nav a{
     font-family: 'Fjalla One', sans-serif;
@@ -71,7 +77,8 @@ p {
 }
 .review {
   color: white;
-  width: 100%;
+  width: 95%;
+	margin: auto;
   background-color: black;
 	padding:20px 0;
 }
@@ -85,7 +92,7 @@ p {
 .right, .left{
   display: block;
   color: white;
-margin:20px;
+	margin:20px;
 
 }
 .leftone{
@@ -124,15 +131,19 @@ div.youtube{
 
 }
 
-@media screen and (min-width : 700px){
+@media screen and (min-width : 800px){
 
   img.logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-     width: 35%;
+     width: 350px;
      border-radius: 45%;
   }
+	nav div{
+		max-width: 1200px;
+		margin: auto;
+	}
 	.left{
 		width: 48%;
 		margin: 1%;
@@ -143,8 +154,11 @@ div.youtube{
 	width: 48%;
 	float: left;
 	margin: 1%;
-
 }
+.review{
+		max-width:1200px;
+		margin: auto;
+	}
 .review:after {
 	content:"";
 	clear:both;
